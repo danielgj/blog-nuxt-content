@@ -1,4 +1,4 @@
-# my-personal-blog
+# Blog with Nuxt Content
 
 ## Build Setup
 
