@@ -12,7 +12,7 @@ export default {
     ListArticles,
   },
   async asyncData({ $content }) {
-    const docs = await $content('/blog/')
+    const docs = await $content('blog')
       .without(['body'])
       .sortBy('createdAt', 'asc')
       .fetch()
